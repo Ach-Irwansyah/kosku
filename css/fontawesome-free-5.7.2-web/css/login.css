@@ -1,0 +1,64 @@
+body{
+	background-image:linear-gradient(#60646d, #22242a);
+}
+.lingkaran{
+	background-color:#4ECDC4;
+	height: 90px;
+	width: 90px;
+	border-radius: 200px;
+	position: absolute;
+    margin-top: -230px;
+	margin-left: -50px;
+	padding: 15px;
+    left: 50%;
+    top: 55%;
+
+}
+.container{
+	background-color: rgba(255, 255, 255, 0.66);
+    position:absolute;
+	margin-top:-100px;
+	margin-left:-200px;
+	left:50%;
+	top:55%;
+    padding:9px;
+	width:380px;
+	height:250px;
+    border-radius: 10px;
+}
+.judul{
+	padding:1px;
+}
+.login input[type=text]{
+	padding: 8px;
+	outline:none;
+    color:#737373;
+	margin-top:70px;
+	border:none;
+	width:250px;
+	border-radius:5px;
+	background: none;
+}
+.login input[type=password]{
+	padding: 8px;
+	outline:none;
+	color: #737373;
+	margin-top:30px;
+	width:250px;
+	border-radius:5px;
+	border:none;
+	background: transparent;
+}
+.btn_login{
+	outline:none;
+	padding: 10px;
+    color:#737373;
+    background-color: #4ECDC4;
+	margin-top: 30px;
+	width:200px;
+	border-radius: 18px;
+	border:none;
+	}
+	.btn_login:hover{
+		background-color:#333333;
+}
